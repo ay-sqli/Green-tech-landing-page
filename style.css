@@ -1,0 +1,231 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    
+}
+
+.center-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+
+}
+
+#home
+{
+    height: 40rem;
+    width: 100%;
+    background-color: #01E070;
+    z-index: 1;
+    position: relative;
+    max-width: 1400px;
+}
+button{
+    position: relative;
+    margin: 10px;
+    border: none;
+    color: #fff;
+    background-color: #01E070;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;    
+    top: 50%;
+    left: 3%;
+    font-size: 1.3rem;
+    z-index: 80;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.services-title > button {
+    top: 0%;
+    left: 60px;
+    background-color: #01E070;
+}
+.home{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    width: 400px;
+    height: 500px;
+    z-index: 10;
+}
+
+header{
+    display: flex;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+a{
+    text-decoration:none ;
+    color: aliceblue;
+}
+
+nav{
+    display: inline;
+    z-index: 99;
+    height: 80px;
+    padding: 20px;
+}
+
+.white-bg{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+    z-index: -1;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.Learn-more{
+    position: relative;
+    color: #ffffff;
+    font-size: 1rem;
+    z-index: 20;
+    border-radius: 0%;
+    border: none;
+    width: 200px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #01E070;
+}
+.welcome > button{
+    margin-left: 40%;
+    top: -12%;
+}
+
+.logo{
+    height: 5rem;
+    display: inline;
+  
+}
+
+li{
+    font-size: 1.1rem;
+    float: left;
+    margin-left: 60px ;
+}
+li:hover{
+
+    background: linear-gradient(180deg,rgba(255, 247, 0, 0) 80%, #ffffffca 100%);
+    background-size: 30%;
+    transition: 0.3s;
+    
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container > img {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+}
+
+.welcome{
+    height: 160vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    position: absolute;
+    z-index: 60;
+    top: 35%;
+    right: 8%;
+    width: 600px;
+    height: 350px;
+    background-color: #01E070a6;
+
+}
+.text{
+    background-color: #fff;
+    padding: 60px 40px;
+    height: 100%;
+    width: 80%;
+    float: right;
+}
+.text2{
+    padding: 70px 0px;
+
+}
+.text > h1{
+    display: inline-block;
+    font-size: 2em;
+    color: #56635d;
+    background: linear-gradient(180deg,rgba(255, 247, 0, 0) 60%, #01E070ca 100%);
+    background-size: 50%;
+}
+.text > p{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1em;
+    color: rgb(51, 51, 51);
+  
+}
+.services > p {
+
+    color: red;
+
+}
+#Service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.services {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    height: 90%;
+    width: 90%;
+    margin: auto; 
+}
+
+.services-title,
+.web,
+.graphic {
+    width: 30%;
+    height: 60%;
+
+}
+.web  > i, .graphic > i{
+    color: #01E070;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.center{
+    text-align: center;
+}
+.web,
+.graphic {
+padding-top: 90px;
+}
+
+.social{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 30;
+    width: 155px;
+    margin: 15px ;
+}
+.social > i {
+    color: #ffffff;
+    margin: 10px;
+}

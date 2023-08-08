@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="center-container">
+    <header class="header">
+        <img class="logo" src="GreenFan.png">
+
+        <nav>
+            <ul >
+                <li><a href="" Class="black">Home</a></li>
+                <li><a href="" Class="black">Licence</a></li>
+                <li><a href="" Class="black">About</a></li>
+                <li><a href="" Class="black">Blog</a></li>
+                <li><a href="" Class="black">Portfolio</a></li>
+                <li><a href="" Class="black">Pricing</a></li>
+                <li><a href="" Class="black">Contact</a></li>
+            </ul>
+        </nav>
+
+        </header>   
+        <section id="home">  
+       <div class="container">
+            <button class="plus">+</button><br>
+            <button class="minus">-</button> 
+                <div class="welcome">
+                    <div class="text">
+                        <h1>Stay</h1><br>
+                        <h1>with techoners</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <button class="Learn-more">Learn More -></button>
+                </div>
+            <img src="beach.jpg" height="520vh">
+            <div class="social"> 
+                <i class="fa fa-facebook fa-1x"></i>
+                <i class="fa fa-instagram fa-1x"></i>
+                <i class="fa fa-twitter fa-1x"></i>
+                <i class="fa fa-pinterest fa-1x"></i>
+            </div>
+       </div>
+                <div class="white-bg"></div>
+                
+    </section>
+    <section id="Service"> 
+        <div class="services">
+            <div class="services-title"> 
+                <div class="text text2">
+                    <h1>With techoners</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="Learn-more">Learn More -></button>
+
+            </div>
+            <div class="web center">
+                <i class="fa fa-code fa-5x"></i>
+                <h2>Wev Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="graphic center">  
+                <i class="fa fa-paint-brush fa-5x"></i>
+                <h2>Wev Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- On scroll effect-->
+    <script type='text/javascript'>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                // Set the color to black
+                var elements = document.getElementsByClassName("black");
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].style.color = "#000";
+                }
+                // Set the background color to white for the header
+                var header = document.getElementsByClassName("header")[0];
+                header.style.backgroundColor = "#ffffff80";
+            } else {
+                // Set the color back to white
+                var elements = document.getElementsByClassName("black");
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].style.color = "#fff";
+                }
+                // Set the background color back to its original value for the header
+                var header = document.getElementsByClassName("header")[0];
+                header.style.backgroundColor = ""; // This will reset the background color to default
+            }
+        }
+    </script>
+
+
+</body>
+</html>
